@@ -1,4 +1,12 @@
 # skynet_redis_sample
-a sample of skynet to use redis
+a sample of skynet to use redis (Linux only)
 
-make && make start
+## Build
+```
+make
+```
+
+## Test
+```
+make start
+```
