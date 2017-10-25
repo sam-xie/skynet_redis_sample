@@ -1,5 +1,5 @@
 # skynet_redis_sample
-a sample of [skynet](https://github.com/cloudwu/skynet) to use redis (Linux only)
+a sample of [skynet](https://github.com/cloudwu/skynet) to use redis (Only tested in linux)
 
 ## Build
 ```
