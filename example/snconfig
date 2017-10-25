@@ -1,0 +1,21 @@
+root = "../"
+maindir = root.."example/"
+trddir = root.."3rd/lib/" -- 3rd libs
+
+lualoader = "lualib/loader.lua"
+cpath = "./cservice/?.so;"
+lua_cpath = "./luaclib/?.so;"
+	..trddir.."?.so;"
+luaservice = "./service/?.lua;"
+	..root.."?.lua;"
+	..maindir.."?.lua;"
+lua_path = "./lualib/?.lua;./lualib/?/init.lua;"
+	..root.."?.lua;"
+	..maindir.."?.lua;"
+
+thread = 8
+logger = nil
+logpath = "."
+harbor = 0
+start = maindir.."main"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
